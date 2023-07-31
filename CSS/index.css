@@ -1,0 +1,87 @@
+body {
+    background-image: url("/images/grad.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.logo {
+    margin-top: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.button,
+.button2 {
+    width: 200px;
+    height: 150px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.button {
+    background-color: #E5ABCE; /* Pink background */
+}
+
+.button2 {
+    background-color: #ff6b9b; /* Pink background */
+}
+
+.button:hover,
+.button2:hover {
+    background-color: #fff; /* New background color on hover */
+    color: #E5ABCE; /* New text color on hover */
+    transform: scale(1.1); /* Increase the size by 10% on hover */
+}
+
+/* Style for the sign-in/sign-out button */
+.connexion-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Animation on hover for the sign-in/sign-out button */
+.connexion-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
