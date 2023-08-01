@@ -1,6 +1,7 @@
 # sense-metadata
 
 Description
+
 This project is a website created using WampServer for Windows or MAMP for Mac. The site contains form pages for submitting information to a database (DB).
 
 Project Structure:
@@ -56,20 +57,29 @@ sense-metadata/
 
 
 Contents of Folders and Files
+
 css/: This folder contains CSS files used for the site's formatting.
 
 index.css: The CSS file specific to the homepage (index.php).
+
 style.css: The main CSS file for the site.
+
 style_edit.css: The CSS file specific for the formatting of edit pages.
+
 js/: This folder contains JavaScript files used to add interactive features to the site.
+
 
 images/: This folder contains images used on the site.
 
 grad.jpg: Background image.
+
 logo.png: Site logo.
+
+
 BDD/: This folder contains files related to the database.
 
 sense_metadonnees.sql: SQL file containing the structure of the "sense_metadonnees" database.
+
 MCD.png: Conceptual schema of the database in image format.
 
 connexion.html: Connection page allowing users to log in to the site.
@@ -98,7 +108,9 @@ track.php: Page dedicated to managing music tracks.
 
 view_artist.php: Page to view information of a specific artist.
 
+
 Installation
+
 To run the site locally, you must have WampServer installed on Windows or MAMP on Mac.
 Make sure that the Apache server and MySQL database are active and running on their respective ports (80 and 3306).
 
